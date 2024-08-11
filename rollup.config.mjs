@@ -19,9 +19,14 @@ export default {
   ],
   external: ['react', 'react-dom'],
   plugins: [
-    resolve(),
+    resolve({
+      extensions: ['.js', '.jsx', '.ts', '.tsx'],  // Handle .tsx and .jsx files
+    }),
     commonjs(),
-    typescript(),
+    typescript({
+      tsconfig: './tsconfig.json',
+      useTsconfigDeclarationDir: true,  // Ensures the .d.ts files are output correctly
+    }),
     postcss({
       extract: true,
       minimize: true,

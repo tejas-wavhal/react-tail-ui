@@ -1,9 +1,9 @@
-import Button from "./Button";
+import Button, { ButtonProps } from "./Button";
 
 export default {
   title: "Components/Button",
   component: Button,
-};
+} as ButtonProps;
 
 const Template = (args: any) => <Button {...args} />;
 
