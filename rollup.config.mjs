@@ -20,12 +20,12 @@ export default {
   external: ['react', 'react-dom'],
   plugins: [
     resolve({
-      extensions: ['.js', '.jsx', '.ts', '.tsx'],  // Handle .tsx and .jsx files
+      extensions: ['.js', '.jsx', '.ts', '.tsx'],  // Ensure .tsx and .jsx extensions are handled
     }),
     commonjs(),
     typescript({
       tsconfig: './tsconfig.json',
-      useTsconfigDeclarationDir: true,  // Ensures the .d.ts files are output correctly
+      useTsconfigDeclarationDir: true,  // Ensure the .d.ts files are output correctly
     }),
     postcss({
       extract: true,

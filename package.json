@@ -4,7 +4,7 @@
   "description": "react-tail-ui is a React component library built with Tailwind CSS, offering flexible and customizable UI components to speed up your development process.",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
-  "types": "dist/index.d.ts",
+  "types": "dist/types/index.d.ts",
   "files": [
     "dist"
   ],

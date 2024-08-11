@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "jsx": "react-jsx",
     "moduleResolution": "node",
     "target": "es5",
     "module": "esnext",
@@ -12,8 +11,9 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "declaration": true,                   // Emit declaration files
-    "outDir": "./dist",                    // Output directory for compiled files
     "declarationDir": "./dist/types",      // Output directory for declaration files
+    "outDir": "./dist",                    // Output directory for compiled files
+    "jsx": "react-jsx",
   },
   "include": ["src"]
 }
