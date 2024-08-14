@@ -1,4 +1,4 @@
-# React-Tail-UI
+# React-Tail-UI (NOTE: This is under development)
 
 ![React-Tail-UI](https://i.ibb.co/7JywLQH/DALL-E-2024-08-11-15-14-13-A-highly-modern-and-sleek-landscape-oriented-logo-for-an-npm-package-name.webp)
 
